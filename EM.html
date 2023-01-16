@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blog Single Post - Maryam Saberi</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width : 568px)">
+	<script type="text/javascript" src="js/mobile.js"></script>
+</head>
+<body>
+	<div id="header">
+		<ul id="navigation">
+			<li ><a href="index.html">home</a></li>
+			<li class="selected"><a href="projects.html">projects</a></li>
+			<li><a href="teaching.html">teaching</a></li>
+			<li><a href="publication.html">publications</a></li>
+		</ul>
+	</div>
+	<div id="body">
+		<div>
+			<img src="images/EM-1.jpg" alt="">
+				<div class="article">
+					<h2>Emotion Modeling, From Stimulation to Expression</h2>					
+					<p class="just">
+						The design goal is to facilitate real-time, natural and human-like non-verbal behaviour which is responsive to the input streams from multiple sensors. As a result, in the my system emotional responses are associated directly and as a linear function of immediate perceptual features and interaction scenario inputs, rather than responses based on the appraised interpretation of events which is of potential interest to models of strategic decision-making and action selection such as in 
+					</p>
+				</div>
+		</div>
+		<div>
+			<ul>
+				<li class="solidBorder" >
+					<a href="Sensor.html" class="figure"><img src="images/emo-gen.jpg" alt=""></a>
+					<div class="divLowPadding just">				
+						<p class="pLowLineheight just">	
+							<strong style="font-size:17px"> Facial Expressions, Manifesting Emotions</strong>
+							</br></br>
+							Circumplex model for defining each emotion as a linear combination of valence (pleasure) and arousal (Russell, 1980). To create a continoues emotion, valence and arousal values were maped to facial muscle movements using facial action coding system.
+							</br></br>
+							The Facial Action Coding System (FACS) is an approach that systematically describes facial actions in terms of small Action Units (AUs) such as left-eye-lid-close and jaw-open. Ekman and Friesen proposed the original FACS in the 1970s by verifying how the contraction of each facial muscle (individually and in combination with other muscles) changes the appearance of the face. 
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+		<div>
+			<ul>
+				<li class="solidBorder" >
+					<a href="Sensor.html" class="figure"><img src="images/emo-gen2.png" alt=""></a>
+					<div class="divLowPadding just">				
+						<p class="pLowLineheight just">	
+							<strong style="font-size:17px"> Emotion Generation</strong>
+							</br></br>
+							 In the current version of the system, three kinds of triggers elicit emotional valence and arousal: 1) triggers activated during interaction between the user and environment, 2) triggers regarding the interaction scenario, and 3) internal triggers when no external event is occurring. Several psychological studies indicate that emotion is contagious. Thus, the positive valence of the character increases if they sense a user’s positive emotion. Moreover, a signal of potential gains increases valence while the signal of potential losses decreases valence. 
+							</br></br>
+							Depending on how important a trigger is in satisfying the character’s needs, it can have different types of impacts on generated arousal and valence. Based on Maslow’s “hierarchy of needs”, three categories of input triggers are defined: self-esteem, love/belonging and safety. I make the assumption that the triggers related to safety have more impact on arousal and valence changes than inputs related to love and belonging, and they both have higher importance than inputs regarding the self-esteem. For example, a user invading the personal space of the character jeopardizes the need for safety and has the highest impact on arousal while smiling back at the user corresponds to the need for being loved, which has a lower importance. 
+							
+							<!---
+							The figure shows the temporal change of input triggers, the weight of each trigger and the resulting valence change, using a Simulink Scope block. The Simulink Scope block allows us to view signal data during simulations while grouping data, in this case triggers, weights, and valence signals. The Emotion-Generation module is designed such that future designers can add their desired input triggers and weights easily. 
+							--->
+						</p>
+					</div>		
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p>&copy; Maryam Saberi</p>
+			<ul>
+				<li><a href="https://twitter.com/maryamsaberi" id="twitter">twitter</a></li>
+				<li><a href="https://www.facebook.com/maryam.saberi.184" id="facebook">facebook</a></li>
+				<li><a href="https://www.linkedin.com/in/maryam-saberi-ph-d-b1652224/" id="linkedin">linkedin</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
