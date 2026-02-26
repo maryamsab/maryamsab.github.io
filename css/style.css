@@ -126,7 +126,9 @@ p a:hover {
 
 #body div ul li .figure {/*fixed width for figure*/
 	border-right: 2px solid #1a1a1a; /*border in right side of image*/
+	display: block;
 	float: left;
+	overflow: hidden;
 	margin: 0;
 	padding: 0;
 	width: 376px;
@@ -142,7 +144,9 @@ p a:hover {
 #body div ul li img {/**opacity*/
 	border: 0;
 	display: block;
+	height: 100%;
 	margin: 0;
+	object-fit: cover;
 	padding: 0;
 	opacity: 0.8;
 	transition: 0.5s ease-in-out;
@@ -412,7 +416,8 @@ img.solidBorder {
 
 li.solidBorder { /*cant justify because of project page text column*/
 	border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-	display: block;
+	display: flex;
+	align-items: stretch;
 	list-style: none;
 	margin: 0 0 13px;
 	overflow: hidden;
