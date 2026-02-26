@@ -401,7 +401,7 @@ p{
 }
 
 .just{
-	text-align:justify;
+	text-align: left;
     }
 
 img.solidBorder { 
@@ -411,7 +411,7 @@ img.solidBorder {
 }
 
 li.solidBorder { /*cant justify because of project page text column*/
-	border: 2px solid #1a1a1a;
+	border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 	display: block;
 	list-style: none;
 	margin: 0 0 13px;
